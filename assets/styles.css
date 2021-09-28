@@ -85,62 +85,35 @@
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .title-wise {
-  
-    background-color: #112233;
-    color: white;
-    height: 1100px;
-    position: relative;
-    padding: 0;
-  }
+ 
 }
 
+.title-wise {
+  
+  background-color: #112233;
+  color: white;
+  height: 300px;
+  position: relative;
+  padding: 0;
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-  .title-wise {
   
-    background-color: #112233;
-    color: white;
-    height: 650px;
-    position: relative;
-    padding: 0;
-  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .title-wise {
   
-    background-color: #112233;
-    color: white;
-    height: 1300px;
-    position: relative;
-    padding: 0;
-  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .title-wise {
   
-    background-color: #112233;
-    color: white;
-    height: 500px;
-    position: relative;
-    padding: 0;
-  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-  .title-wise {
   
-    background-color: #112233;
-    color: white;
-    height: 500px;
-    position: relative;
-    padding: 0;
-  }
 }
 
 
@@ -206,8 +179,10 @@
 } */
 
 .container-wise {
-  max-width: 900px;
+  /* max-width: 900px; */
   margin: auto;
-  padding: 5% 15%;
+  /* padding: 5% 15%; */
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
